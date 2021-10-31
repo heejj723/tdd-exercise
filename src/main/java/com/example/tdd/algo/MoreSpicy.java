@@ -25,8 +25,8 @@ public class MoreSpicy {
   public Integer solution() {
     while (checkMixCondition()) {
       count = addCount(count);
+      if (isNotValidCondition()) return -1;
     }
-    if (isNotValidCondition()) return -1;
     return count;
   }
 
@@ -45,8 +45,7 @@ public class MoreSpicy {
   }
 
   public boolean checkMixCondition() {
-    if (scoville.size() <= 1) return false;
-    return scoville.peek() < K;
+    return scoville.size() > 1 && scoville.peek() < K;
   }
 
   public boolean isNotValidCondition() {
