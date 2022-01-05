@@ -5,6 +5,9 @@ TDD 방법론을 연습하기 위하여, 비교적 인풋과 아웃풋이 명확
 
 [문제 출처](https://programmers.co.kr/learn/courses/30/lessons/42626)
 
+![스크린샷 2022-01-05 오전 11 22 33](https://user-images.githubusercontent.com/45758481/148150622-95f4a966-5f61-4dac-86eb-083ba4ee1b29.png)
+
+
 ## Test
 - 두 음식을 섞었을 때 맵기 지수가 예상치로 나오는가?
 - 섞은 횟수를 카운팅 하는가?
